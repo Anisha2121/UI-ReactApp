@@ -32,6 +32,6 @@ export default function CardInfoComponent(props) {
     const {title, size, icon} = props;
   return (
     <CardComponentAccToSize size={size} title={title} icon={icon}/>
-    // props.icon && <props.icon />
+
   )
 }

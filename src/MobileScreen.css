@@ -1,8 +1,9 @@
-/* MobileScreen.css */
 .mobile-screen {
     /* width: 100vw; */
     height: 100vh;
     font-family: 'Arial', sans-serif;
+    background: rgb(250,192,201);
+background: linear-gradient(360deg, rgba(250,192,201,1) 0%, rgba(255,255,255,0.8968837535014006) 32%);
   }
   
   .header {
@@ -18,7 +19,7 @@
   
   .toggle-button {
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 20%;
   }
   
@@ -83,16 +84,23 @@
     width: 80%;
     background-color: #ecf0f1;
     padding: 20px;
+    border-radius: 17px;
+    margin-top: 5% ;
+    box-shadow:  6px 6px 4px #cccccc,
+             -6px -6px 4px #f4f4f4;
   }
   
   .horizontal-card {
-    width: 100%;
-    height: 80px; /* Adjust the height as needed */
+    width: 95%;
+    height: auto; /* Adjust the height as needed */
     margin-bottom: 10px; /* Adjust the margin as needed */
-    background-color: #ecf0f1;
+    background-color: rgb(244, 207, 207);
     border: 1px solid #bdc3c7;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    box-shadow:  6px 6px 4px #cccccc,
+             -6px -6px 4px #f4f4f4;
   }
 
   .heading-container {
@@ -108,4 +116,60 @@
     font-size: 14px;
     padding-left: 5%;
   }
-  
+  .cardheader{
+    display: flex;
+    justify-content: center;
+  }
+
+  .scrollable-container {
+    max-height: 300px;
+    overflow-y: auto; 
+  }
+
+  .scrollable-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .action-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    font-size: 15px;
+  }
+
+  .action-dates {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .action-name {
+    font-size: 20px;
+    margin-bottom: 3%;
+  }
+
+  .action-persons {
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+
+  .header-status {
+    border-radius: 10px;
+    background-color: rgb(245, 82, 82);
+    color: white;
+    padding: 1%;
+  }
+
+  .header-actions {
+    border-radius: 10px;
+    background-color: white;
+    padding: 1%;
+  }
+
+  .header-id {
+    margin-top: 1%;
+  }
+
+  .action-date-due {
+    color: red;
+  }
