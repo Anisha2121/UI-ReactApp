@@ -1,0 +1,111 @@
+/* MobileScreen.css */
+.mobile-screen {
+    /* width: 100vw; */
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1%;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  9px 9px 18px #d5d5d5,
+                -9px -9px 18px #ebebeb;
+  }
+  
+  .toggle-button {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20%;
+  }
+  
+  .menu {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .content-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+  }
+
+  .tileOne {
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 17px;
+    background: #f5f3f3;
+    box-shadow:  8px 8px 12px #bebebe,
+             -8px -8px 12px #ffffff;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 12px;
+  }
+
+  .titleSmall {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 10px;
+  }
+
+  .tileTwo {
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 17px;
+    background: #f5f3f3;
+    box-shadow:  8px 8px 12px #bebebe,
+             -8px -8px 12px #ffffff;
+  }
+
+  .full-screen-card {
+    width: 80%;
+    background-color: #ecf0f1;
+    padding: 20px;
+  }
+  
+  .horizontal-card {
+    width: 100%;
+    height: 80px; /* Adjust the height as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .platform {
+    margin-top: 3%;
+    font-size: 14px;
+    padding-left: 5%;
+  }
+  
