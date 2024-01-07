@@ -1,10 +1,11 @@
 import React from 'react'
 import './MobileScreen.css';
 
-export default function 
-() {
+export default function ActionCardComponent(props) {
+
+  const {color} = props;
   return (
-    <div className='horizontal-card'>
+    <div className='horizontal-card' style={color ? {backgroundColor:`${color}`} :  {backgroundColor:`rgb(244, 207, 207)`}}>
         <div className='action-header'>
           {/* can be dynamic if we get api data */}
             <div className='header-id'>
